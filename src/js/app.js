@@ -952,9 +952,9 @@ App = {
 
   },
 
-  initData: function () {
+  /*initData: function () {
 
-    /*var ContributeBtn =  document.getElementById("demo");
+    var ContributeBtn =  document.getElementById("demo");
     var ContributeAmt = document.getElementById("demo");
 
     this.triggerContract('getUserAvailable',[userAccount1], function (data) {
@@ -1004,10 +1004,10 @@ App = {
     this.triggerContract('getContractBalance',[], function (data) {
       console.log(data.toNumber());
       $("#totalInvested1").text(data.toNumber());
-    });*/
+    });
     
     
-  },
+  },*/
 
 
   triggerContract: async function (methodName, args, callback) {
@@ -1065,8 +1065,8 @@ App = {
     return this.bindEvents();
   },
 
-  bindEvents: function () {
-    /*var that = this;
+  /*bindEvents: function () {
+    var that = this;
     $(document).on('click', '#commit', function () {
       that.transfer();
       //that.triggerContract1();
@@ -1096,9 +1096,9 @@ App = {
       swal("Congrants!", "Your withdraw successed!", "success");
       
     });
-    });*/
+    });
 
-  },
+  },*/
 
   markAdopted: function (adopters, account) {
     /*
