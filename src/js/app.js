@@ -954,7 +954,7 @@ App = {
 
   initData: function () {
 
-    var ContributeBtn =  document.getElementById("demo");
+    /*var ContributeBtn =  document.getElementById("demo");
     var ContributeAmt = document.getElementById("demo");
 
     this.triggerContract('getUserAvailable',[userAccount1], function (data) {
@@ -1004,7 +1004,7 @@ App = {
     this.triggerContract('getContractBalance',[], function (data) {
       console.log(data.toNumber());
       $("#totalInvested1").text(data.toNumber());
-    });
+    });*/
     
     
   },
@@ -1066,7 +1066,7 @@ App = {
   },
 
   bindEvents: function () {
-    var that = this;
+    /*var that = this;
     $(document).on('click', '#commit', function () {
       that.transfer();
       //that.triggerContract1();
@@ -1096,7 +1096,7 @@ App = {
       swal("Congrants!", "Your withdraw successed!", "success");
       
     });
-    });
+    });*/
 
   },
 
@@ -1109,7 +1109,7 @@ App = {
   handleAdopt: function (event) {
     event.preventDefault();
 
-    var petId = parseInt($(event.target).data('id'));
+    //var petId = parseInt($(event.target).data('id'));
 
     /*
      * Replace me...
