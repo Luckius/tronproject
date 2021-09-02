@@ -1,1 +1,1 @@
-web: node tronbox.js
+web: node ./src/js/app.js
