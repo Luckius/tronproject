@@ -952,7 +952,7 @@ App = {
 
   },
 
-  /*initData: function () {
+  initData: function () {
 
     var ContributeBtn =  document.getElementById("demo");
     var ContributeAmt = document.getElementById("demo");
@@ -1007,7 +1007,7 @@ App = {
     });
     
     
-  },*/
+  },
 
 
   triggerContract: async function (methodName, args, callback) {
@@ -1065,7 +1065,7 @@ App = {
     return this.bindEvents();
   },
 
-  /*bindEvents: function () {
+  bindEvents: function () {
     var that = this;
     $(document).on('click', '#commit', function () {
       that.transfer();
@@ -1098,7 +1098,7 @@ App = {
     });
     });
 
-  },*/
+  },
 
   markAdopted: function (adopters, account) {
     /*
@@ -1109,7 +1109,7 @@ App = {
   handleAdopt: function (event) {
     event.preventDefault();
 
-    //var petId = parseInt($(event.target).data('id'));
+    var petId = parseInt($(event.target).data('id'));
 
     /*
      * Replace me...
@@ -1117,8 +1117,8 @@ App = {
   }
 };
 
-/*$(function () {
+$(function () {
   $(window).load(function () {
     App.init();
   });
-});*/
+});
